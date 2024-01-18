@@ -39,6 +39,17 @@
                 <version>0.0.8</version>
                 <configuration>
                     <mainClass>${mainClass}</mainClass>
+                    <stripDebug>true</stripDebug>
+                    <compress>2</compress>
+                    <noHeaderFiles>true</noHeaderFiles>
+                    <noManPages>true</noManPages>
+                    <launcher>programfx</launcher>
+                    <jlinkImageName>program</jlinkImageName>
+                    <jlinkZipName>programzip</jlinkZipName>
+                    <module>javafx.controls</module>
+                    <options>
+                        <option>--add-modules javafx.controls,javafx.fxml</option>
+                    </options>
                 </configuration>
             </plugin>
 
