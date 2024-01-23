@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>org.modernclient.MyShapes2</mainClass>
+        <mainClass>org.modernclient/org.modernclient.MyShapes2</mainClass>
     </properties>
 
     <organization>
@@ -53,7 +53,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>org.modernclient.MyShapes2</mainClass>
+                    <mainClass>${mainClass}</mainClass>
                 </configuration>
             </plugin>
 
