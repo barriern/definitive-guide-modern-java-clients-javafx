@@ -74,7 +74,7 @@ public class MyShapes2 extends Application {
 
         Scene scene = new Scene(stackPane, 350, 230, Color.LIGHTYELLOW);
         //scene.getStylesheets().add("/styles/Styles.css");
-        
+
         stage.setTitle("MyShapes with JavaFX");
         stage.setScene(scene);
         stage.show();

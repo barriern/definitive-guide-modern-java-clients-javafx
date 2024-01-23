@@ -10,11 +10,11 @@
             "request": "launch",
             "mainClass": "org.modernclient/org.modernclient.MyShapes2",
             "projectName": "myshapes2",
-            // "vmArgs": "--add-modules javafx.controls,javafx.fxml",
-            // "modulePaths" : [
-            //     "/home/barrier/Downloads/javafx-sdk-18.0.1/lib",
-            //     "${workspaceFolder}/target/classes"
-            // ]
+            "vmArgs": "--add-modules javafx.controls,javafx.fxml",
+            "modulePaths" : [
+                "/home/barrier/Softwares/javafx-sdk-21.0.2/lib",
+                "${workspaceFolder}/target/classes"
+            ]
         }
     ]
 }
